@@ -1,0 +1,133 @@
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+.calculate-button {
+  position: absolute;
+  width: 283px;
+  height: 36px;
+  left: 40px;
+  top: 194px;
+  background: #620D4F;
+  border-radius: 20px;  
+  border: none;
+}
+
+.button-text {
+  font-family: Inter;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  box-shadow: none;
+}
+
+.article-label {
+  position: absolute;
+  width: 59px;
+  height: 19px;
+  left: 38px;
+  top: 73px;
+}
+
+.amount-label {
+  position: absolute;
+  width: 59px;
+  height: 19px;
+  left: 38px;
+  top: 122px;  
+}
+
+.text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.amount-input {
+  position: absolute;
+  width: 205px;
+  height: 28px;
+  left: 114px;
+  top: 116px;
+  background: #D9D9D9;
+  border: none;
+}
+
+.article-input {
+  position: absolute;
+  width: 205px;
+  height: 28px;
+  left: 114px;
+  top: 66px;
+  background: #D9D9D9;
+  border: none;
+}
+
+.total {
+  position: absolute;
+  width: 53px;
+  height: 19px;
+  left: 70px;
+  top: 447px;
+}
+
+.total-text {
+  position: absolute;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  width: 200px;
+  left: 1px;
+  word-spacing: 6px;
+}
+
+.line {
+  visibility: hidden;
+  position: absolute;
+  width: 303px;
+  height: 0px;
+  left: 23px;
+  top: 436px;
+  border: 2px solid #000000;
+  transform: rotate(-0.19deg);
+  margin: 10px;
+}
+
+.banner {
+  visibility: hidden;
+  position: absolute;
+  width: 303px;
+  height: 19px;
+  left: 33px;
+  top: 309px;
+}
+
+.tickets {
+  position: absolute;
+  width: 52px;
+  height: 19px;
+  left: 38px;
+  top: 352px !important;
+}
+
+.list {
+  position: absolute;
+  left: -36px;
+  list-style-type: none;
+  width: 250px;
+  word-spacing: 170px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.li {
+  margin: 10px;
+}
