@@ -111,9 +111,9 @@
 }
 
 .tickets {
+  display: flex;
   position: absolute;
   width: 52px;
-  height: 19px;
   left: 38px;
   top: 352px !important;
 }
@@ -124,10 +124,10 @@
   list-style-type: none;
   width: 250px;
   word-spacing: 170px;
-  margin-top: 5px;
+  margin-top: -5px;
   margin-bottom: 5px;
 }
 
-.li {
-  margin: 10px;
+.list-item {
+  margin: 10px !important;
 }

@@ -20,13 +20,13 @@ function getItems() {
 
   let sum = 0;
   const ul = document.getElementById("ticket");
-  var li = document.createElement("li");
+  const li = document.createElement("li");
   items.forEach((item) => {
     li.innerHTML = `${item.article} $${item.amount}`;
+    li.classList.add("list-item")
     ul.appendChild(li),
     sum += Number(item.amount);
   });
 
-  console.log(items);
   document.getElementById("total").innerText = `TOTAL $${sum}`;
 }
